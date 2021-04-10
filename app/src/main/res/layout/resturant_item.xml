@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    app:barrierMargin="5dp">
+
+    <ImageView
+        android:id="@+id/image_item_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        tools:src="@mipmap/ic_launcher"
+        android:contentDescription="@string/restaurant_photo"/>
+
+    <TextView
+        android:id="@+id/txv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@id/image_item_logo"
+        android:layout_toRightOf="@id/image_item_logo"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        tools:text="hello in resturant"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/txv_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txv_name"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@id/image_item_logo"
+        tools:text="Type" />
+
+    <TextView
+        android:id="@+id/txv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txv_type"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@id/image_item_logo"
+        tools:text="Adderss" />
+</RelativeLayout>
