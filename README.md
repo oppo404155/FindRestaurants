@@ -1,4 +1,4 @@
 # FindRestaurants
-Offline Caching with NetworkBoundResource
+simple Offline Caching with NetworkBoundResource
 Dagger Hilt dependancy injection
 Architecture components MVVM pattern 
